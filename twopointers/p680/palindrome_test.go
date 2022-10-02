@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestIsPalindrome(t *testing.T) {
+func TestValidPalindrome(t *testing.T) {
 	tc := []struct {
 		name   string
 		input  string
