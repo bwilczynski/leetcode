@@ -2,8 +2,6 @@ package list
 
 import (
 	"fmt"
-	"strconv"
-	"strings"
 )
 
 // Definition for singly-linked list.
@@ -26,10 +24,10 @@ func New(a []int) *Node {
 }
 
 func (l *Node) String() string {
-	var a []string
+	var a []int
 	for l != nil {
-		a = append(a, strconv.Itoa(l.Val))
+		a = append(a, l.Val)
 		l = l.Next
 	}
-	return fmt.Sprintf("[%v]", strings.Join(a, ","))
+	return fmt.Sprintf("%v", a)
 }
