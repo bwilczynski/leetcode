@@ -18,4 +18,5 @@ go test ./...
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                               | [golang](./twopointers/p125/palindrome.go) | Easy       |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | [golang](./array/p217/duplicate.go)        | Easy       |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | [golang](./array/p238/product.go)          | Medium     |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | [golang](./hashtable/p242/anagram.go)      | Easy       |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                         | [golang](./twopointers/p680/palindrome.go) | Easy       |
