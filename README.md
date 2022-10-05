@@ -12,6 +12,7 @@ go test ./...
 
 | #   | Title                                                                                             | Solution                                   | Difficulty |
 | --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------- |
+| 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                 | [golang](./array/p1/twosum.go)             | Easy       |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                             | [golang](./stack/p20/parentheses.go)       | Easy       |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                   | [golang](./list/p21/merge.go)              | Easy       |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)       | [golang](./tree/p104/maxdepth.go)          | Easy       |
