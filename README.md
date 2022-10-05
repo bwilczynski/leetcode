@@ -12,6 +12,7 @@ go test ./...
 
 | #   | Title                                                                                             | Solution                                   | Difficulty |
 | --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------- |
+| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                             | [golang](./stack/p20/parentheses.go)       | Easy       |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                   | [golang](./list/p21/merge.go)              | Easy       |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)       | [golang](./tree/p104/maxdepth.go)          | Easy       |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [golang](./array/p121/maxprofit.go)        | Easy       |
