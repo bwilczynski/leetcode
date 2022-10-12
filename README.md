@@ -24,4 +24,5 @@ go test ./...
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                                                 | [golang](./array/p238/product.go)          | Medium     |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                               | [golang](./hashtable/p242/anagram.go)      | Easy       |
 | 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                                                                   | [golang](./twopointers/p680/palindrome.go) | Easy       |
+| 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)                                                                           | [golang](./array/p1089/duplicatezeros.go)  | Easy       |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [golang](./array/p1299/maxright.go)        | Easy       |
