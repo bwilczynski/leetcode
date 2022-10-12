@@ -1,21 +1,16 @@
 package p383
 
 func canConstruct(ransomNote string, magazine string) bool {
-	dict := func(text string) map[rune]int {
-		counter := make(map[rune]int)
-		for _, l := range text {
-			counter[l]++
-		}
-		return counter
+	avail := make(map[rune]int)
+	for _, l := range magazine {
+		avail[l]++
 	}
 
-	avail := dict(magazine)
-	provided := dict(ransomNote)
-	// check if provided contains only letters from avail
-	for key, count := range provided {
-		if count > avail[key] {
+	for _, l := range ransomNote {
+		if avail[l] == 0 {
 			return false
 		}
+		avail[l]--
 	}
 	return true
 }
