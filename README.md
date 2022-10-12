@@ -26,5 +26,6 @@ go test ./...
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                               | [golang](./hashtable/p242/anagram.go)      | Easy       |
 | 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                   | [golang](./hashtable/p383/ransomnote.go)   | Easy       |
 | 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                                                                   | [golang](./twopointers/p680/palindrome.go) | Easy       |
+| 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                       | [golang](./list/p876/middle.go)            | Easy       |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)                                                                           | [golang](./array/p1089/duplicatezeros.go)  | Easy       |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [golang](./array/p1299/maxright.go)        | Easy       |
