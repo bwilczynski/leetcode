@@ -17,6 +17,7 @@ go test ./...
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                       | [golang](./stack/p20/parentheses.go)       | Easy       |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                                             | [golang](./list/p21/merge.go)              | Easy       |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                                   | [golang](./array/p26/removeduplicates.go)  | Easy       |
+| 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                                                     | [golang](./array/p88/merge.go)             | Easy       |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                 | [golang](./tree/p104/maxdepth.go)          | Easy       |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                           | [golang](./array/p121/maxprofit.go)        | Easy       |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                                         | [golang](./twopointers/p125/palindrome.go) | Easy       |
