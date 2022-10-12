@@ -13,6 +13,7 @@ go test ./...
 | #    | Title                                                                                                                                       | Solution                                   | Difficulty |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                           | [golang](./array/p1/twosum.go)             | Easy       |
+| 0002 | Add Two Numbers(https://leetcode.com/problems/add-two-numbers/)                                                                             | [golang](./list/p2/addtwo.go)              | Medium     |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                       | [golang](./stack/p20/parentheses.go)       | Easy       |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                                             | [golang](./list/p21/merge.go)              | Easy       |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                                   | [golang](./array/p26/removeduplicates.go)  | Easy       |
