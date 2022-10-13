@@ -5,7 +5,6 @@ func canConstruct(ransomNote string, magazine string) bool {
 	for _, l := range magazine {
 		avail[l]++
 	}
-
 	for _, l := range ransomNote {
 		if avail[l] == 0 {
 			return false
