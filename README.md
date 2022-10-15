@@ -14,6 +14,7 @@ go test ./...
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ---------- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                           | [golang](./array/p1/twosum.go)             | Easy       |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                           | [golang](./list/p2/addtwo.go)              | Medium     |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)             | [golang](./window/p2/longestsubstring.go)  | Medium     |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                               | [golang](./string/p14/longestprefix.go)    | Easy       |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                       | [golang](./stack/p20/parentheses.go)       | Easy       |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                                             | [golang](./list/p21/merge.go)              | Easy       |
