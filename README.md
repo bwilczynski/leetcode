@@ -21,6 +21,7 @@ go test ./...
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                                   | [golang](./array/p26/removeduplicates.go)  | Easy       |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/)                                                                             | [golang](./array/p27/removeelement.go)     | Easy       |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/)                                                                                         | [golang](./array/p66/plusone.go)           | Easy       |
+| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                           | [golang](./dynamic/p70/climbstairs.go)     | Easy       |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                                                     | [golang](./array/p88/merge.go)             | Easy       |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                 | [golang](./tree/p104/maxdepth.go)          | Easy       |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                           | [golang](./array/p121/maxprofit.go)        | Easy       |
