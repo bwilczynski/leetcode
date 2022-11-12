@@ -23,11 +23,10 @@ func merge(a1, a2 []int) []int {
 			j++
 		}
 	}
-	for ; i < len(a1); i++ {
-		res = append(res, a1[i])
-	}
-	for ; j < len(a2); j++ {
-		res = append(res, a2[j])
+	if i < len(a1) {
+		res = append(res, a1[i:]...)
+	} else if j < len(a2) {
+		res = append(res, a2[j:]...)
 	}
 	return res
 }
