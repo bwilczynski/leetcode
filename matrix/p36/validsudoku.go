@@ -15,7 +15,6 @@ func isValidSudoku(board [][]byte) bool {
 		boxes[i] = make(map[byte]struct{})
 	}
 	for i, row := range board {
-		rows[i] = make(map[byte]struct{})
 		for j, val := range row {
 			if val == '.' {
 				continue
